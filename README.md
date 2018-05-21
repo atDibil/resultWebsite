@@ -1,6 +1,6 @@
 # resultWebsite
-Node JS website that displays users result. can add, update, delete user and user profile and has a login mechanism. 
-Used technology
+Node JS website that displays users result. Can add, update, delete user and user profile and has a login mechanism. 
+Developed Using:
   Node JS 
   Express
   MongoDB
@@ -11,5 +11,5 @@ Used technology
   Ajax
   
   Login Credentials:
-  user: admin
+  username: admin
   password: admin
