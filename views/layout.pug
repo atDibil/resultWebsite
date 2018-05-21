@@ -1,0 +1,25 @@
+html
+    head
+        script(src="/javascript/jquery.js")
+        script(src="/javascript/bootstrap.min.js")
+        script(src="/javascript/main.js")
+        link(rel='stylesheet', href='/stylesheet/bootstrap.min.css')
+        link(rel='stylesheet', href='/stylesheet/style.css')
+    body
+        div(class="navbar navbar-inverse")
+            ul.nav.navbar-nav
+                li.navbar-link.navbar-text 
+                    a(href="/dashboard") Home
+                li.navbar-link.navbar-text    
+                    a(href="/add") Add         
+            form(class="navbar-nav navbar-text",action="/search", method="POST")   
+                ul.nav.navbar-nav
+                    li.navbar-link.navbar-text
+                        input.form-control(type="text", name="search", placeholder="Search..") 
+                    li.navbar-link.navbar-text
+                         input.btn.btn-default(type="submit", value="Search")
+            ul.nav.navbar-nav.navbar-right
+                li.navbar-link.navbar-text 
+                    a(href="/logout") Logout
+        div
+        block content

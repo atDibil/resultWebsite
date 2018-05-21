@@ -1,0 +1,24 @@
+:root{
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.login-box{
+    margin-top: 10%;
+    box-shadow: var(--shadow);
+    height: 450px;
+    width: 400px;
+    text-align: center;
+}
+
+.navbar-right{
+    margin-right: 2%;
+}
+
+.user-container{
+    background-color: white;
+    box-shadow: var(--shadow);
+}

@@ -1,0 +1,13 @@
+extends layout
+block content
+    div.container
+        form.form-group(action="/edit/"+data.id, method="post")
+            input.form-control(type="text", name="symbolno", value=data.symbolno)
+            br
+            input.form-control(type="text", name="name", value=data.name)
+            br
+            input.form-control(name="faculty", value= data.faculty)  
+            br
+            input.form-control(type="text", name="cgpa", value=data.cgpa)
+            br
+            input.btn.btn-default(type="submit", value="Edit")

@@ -1,0 +1,16 @@
+extends layout
+block content
+    div.container
+        form.form-group(action="/add", method="post")
+            input.form-control(type="text", name="symbolno", placeholder="Enter Symbol.No")
+            br
+            input.form-control(type="text", name="name", placeholder="Enter Name")
+            br
+            select.form-control(name="faculty")
+                option(value="BIM") BIM
+                option(value="BBA") BBA
+                option(value="BIT") BIT
+            br
+            input.form-control(type="text", name="cgpa", placeholder="Enter CGPA")
+            br
+            input.btn.btn-default(type="submit", value="Add")

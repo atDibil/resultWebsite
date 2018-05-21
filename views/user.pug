@@ -1,0 +1,12 @@
+extends layout
+block content
+    div.container(class="user-container")
+        h2= data.name
+        h2= data.symbolno
+        h2= data.faculty
+        h2= data.cgpa
+
+        a(href="/edit/"+data.id)
+            input.btn.btn-default(type="button", value="Edit") 
+        
+        input.btn.btn-danger(class="delete-btn",data-id=data.id,type="button", value="Delete")

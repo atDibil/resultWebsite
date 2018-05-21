@@ -1,0 +1,12 @@
+extends layout
+block content
+    div.container-fluid
+        table.table
+            tr.success
+                th Name
+                th Faculty
+            each result, i in data
+                tr
+                    td
+                        a(href="/user/"+result.id)= result.name
+                    td= result.faculty
