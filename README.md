@@ -10,6 +10,8 @@ Developed Using:
   CSS
   Ajax
   
-  Login Credentials:
-  username: admin
-  password: admin
+  Use Login Credentials:
+  username: "admin"
+  password: "admin"
+  
+  
