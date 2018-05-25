@@ -9,6 +9,7 @@ Developed Using:
   Bootstrap
   CSS
   Ajax
+  Jquery
   
   Use Login Credentials:
   username: "admin"
